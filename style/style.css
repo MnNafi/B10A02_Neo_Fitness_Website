@@ -1,0 +1,704 @@
+/* Font Import For the Webpage */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@import url('https://fonts.cdnfonts.com/css/miama');
+
+
+/* Commont Css Design Start Here */
+:root{
+    --primary-color: #fff;
+    --secondary-color: #E6533C;
+    --background-color: #000;
+    --text-color: rgba(255, 255, 255, 0.50);
+    --text-size: 0.875rem;
+}
+
+
+*{
+    font-family: "Inter", sans-serif;
+}
+
+body{
+    padding: 0px 190px;
+    background-color: var(--background-color);
+    margin: 0px;
+    color: var(--primary-color);
+}
+
+
+h1,.h2, h3, h4, h5, h6, p{
+    margin: 0px;
+    padding: 0px;
+}
+
+p{
+    color: var(--text-color);
+}
+
+.miama-font{
+    font-family: 'Miama', sans-serif;
+    font-weight: 400;
+    font-size: 10rem;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+/* Custom Class Style is Start Here */
+.btn-main{
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+    font-size: 1.125rem;
+    font-weight: 600;
+    padding: 16px 60px;
+    border-radius: 42px;
+    border: none;
+}
+.btn-secondary{
+    color: var(--primary-color);
+    background-color: transparent;
+    font-size: 1.125rem;
+    font-weight: 600;
+    padding: 16px 60px;
+    border: 1px solid var(--primary-color);
+    border-radius: 42px;
+}
+
+.text-align-center{
+    text-align: center;
+}
+
+.section-start{
+    margin-top: 100px;
+}
+
+.section-start-middle{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.section-title{
+    margin-bottom: 14px;
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.section-description{
+    width: 670px;
+    color: var(--text-color);
+    font-size: 1rem;
+    margin-bottom: 58px;
+}
+
+.flex-space-between{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+
+/* Design Has Been Start Here */
+header {
+    height: 715px;
+    position: relative;
+    /* overflow: hidden; */
+    margin: 0px -190px;
+}
+
+.background-overlay {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, #111 50%, rgba(119, 119, 119, 0.00) 100%);
+    z-index: 1;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+nav, .hero-container {
+    position: relative;
+    z-index: 2;
+    padding: 0px 190px;
+}
+
+
+
+/* Nav bar Design Start here */
+
+nav{
+    padding-top: 58px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav h1{
+    color: var(--secondary-color);
+    font-style: italic;
+    font-size: 36px;
+}
+
+nav ul{
+    display: flex;
+    gap: 47px;
+    border-radius: 39px;
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    padding: 4px;
+    margin: 0px;
+}
+nav ul li{
+    list-style: none;
+    padding: 8px 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-size: 1.125rem;
+}
+
+.active{
+    border-radius: 46px;
+    background: var(--secondary-color);
+}
+
+/* Hero Section Design Start Here */
+.hero-container{
+    margin-top: 2rem;
+}
+
+.hero-text-container{
+    width: 520px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+.hero-text-container h1{
+    font-size: 5rem;
+    font-weight: 900;
+    line-height: 120%;
+}
+
+.hero-text-container p{
+    font-size: 1rem;
+}
+
+
+.hero-button-container{
+    display: flex;
+    align-items: center;
+    gap:12px;
+}
+
+.hero-image-container{
+    height: 580px;
+    width: 350px;
+    position: relative;
+}
+
+.badge-style{
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    background: rgba(48, 48, 48, 0.54);
+    backdrop-filter: blur(10px);
+    padding: 20px 23px;
+}
+
+.leftbadge{
+    position: absolute;
+    bottom: 60px;
+    left: -100px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.rightbadge{
+    position: absolute;
+    top: 125px;
+    right: -100px;
+}
+
+.badge-tag{
+    font-size: 2.5rem;
+    font-weight: 900;
+    letter-spacing: 1px;
+
+}
+
+.badge-text{
+    font-size: var(--text-size);
+    letter-spacing: 1px;
+}
+
+.dot{
+    background-color: var(--secondary-color);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+/* Habbit section Design Start Here */
+
+.habit-container{
+    width: 100%;
+}
+
+.habit-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.habit-img-container{
+    height: 180px;
+    margin-bottom: 30px;
+}
+
+.habit-img-container img{
+    border: 4px solid rgba(255, 255, 255, 0.10);
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.habit-title{
+    font-size: 1.125rem;
+    margin-bottom: 0.5rem;
+}
+
+.habit-description{
+    width: 230px;
+    font-size: var(--text-size);
+    text-align: center;
+}
+
+
+/* Run Section Design Start Here */
+.run-section{
+    border-radius: 18px;
+    background: #222;
+    padding: 30px 50px;
+}
+
+.run-text-container{
+    width: 450px;
+}
+
+.run-text-container p{
+    margin-bottom: 35px;
+}
+
+.run-img-container{
+    width: 360px;
+    height: 310px;
+}
+
+.run-img-container img{
+    border-radius: 18px;
+}
+
+
+/* Training and Exercise Section Design Start here */
+.first-row-grid{
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+}
+
+.second-row-grid{
+    display: grid;
+    grid-template-columns: 40% 30% 30%;
+}
+
+.grid-image-container{
+    position: relative;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.overlay1{
+    background-color:rgba(6, 255, 210, 0.50);
+}
+
+.overlay2{
+    background-color: rgba(255, 0, 0, 0.30);
+}
+
+.overlay3{
+    background-color: rgba(0, 0, 0, 0.50);
+}
+
+.overlay4{
+    background-color: rgba(0, 0, 0, 0.50);
+}
+
+.overlay5{
+    background-color: rgba(66, 255, 0, 0.30);
+}
+
+.overlay6{
+    background-color: rgba(0, 71, 255, 0.30);
+}
+
+.overlay p{
+    position: absolute;
+    bottom: 30px;
+    left:25px;
+    width: 175px;
+    color: #fff;
+    font-size: var(--text-size);
+} 
+
+/* BMI Calculator Section Design Start Here */
+
+/* BMI Table Chart Design Start here */
+.bmi-chart-table{
+    margin-top: 50px;
+    border-collapse: collapse;
+}
+
+.bmi-chart-table th, .bmi-chart-table td{
+    padding: 15px 20px;
+    text-align: left;
+    border: 1px solid rgba(255, 255, 255, 0.10);;
+}
+
+.bmi-chart-table th{
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.bmi-chart-table td{
+    font-size: var(--text-size);
+    color: var(--text-color);
+}
+ 
+
+/* BMI Calculator Design Start Here */
+.calculator-h3{
+    font-size: 1.75rem;
+    font-weight: 900;
+}
+.bmi-calculator-container{
+    background-color: #222;
+    margin: 0px -190px;
+    padding: 50px 190px;
+}
+
+.calculator-content{
+    width: 575px;
+}
+
+.calculator-heading p{
+    font-size: var(--text-size);
+    margin-top: 1rem;
+}
+
+.calculator-form{
+    margin-top: 34px;
+}
+
+.form-group{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap:12px;
+    margin-bottom: 12px;
+}
+
+.form-group-single{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    margin-bottom: 34px;
+} 
+
+.form-group input, .dropdown{
+    padding: 12px 20px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.10);
+    border: none;
+    outline: none;
+    color: var(--text-color);
+}
+
+.dropdown{
+    appearance: none;
+    background-image: url(../images/chevron-down.svg);
+    background-repeat: no-repeat;
+    background-position: right 20px center;
+    background-size: 24px;
+}
+
+
+
+.form-group input::placeholder{
+    color: var(--text-color);
+}
+
+.dropdown option{
+    background-color: #222;
+    color: var(--text-size);
+}
+
+
+/* Trainer Team Section Design Start Here */
+.team-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    background-color: rgba(255, 255, 255, 0.10);    ;
+    padding: 20px;
+    border-radius: 18px;
+}
+
+.trainer-img-container{
+    height: 275px;
+    width: auto;
+    position: relative;
+}
+
+.trainer-img-container img{
+    border-radius: 18px;
+}
+
+.trainer-overlay{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 18px;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.name-designation{
+    position: absolute;
+    bottom: 15px;
+    left: 20px;
+}
+
+.trainer-name{
+    font-size: 20px;
+    font-weight: 900;
+    margin-bottom: 3px;
+}
+
+.trainer-designation{
+    text-align: var(--text-size);
+}
+
+
+/* Footer Design Start Here */
+footer{
+    background-color: rgba(255, 255, 255, 0.10);
+    margin: 0px -190px;
+    padding: 66px 190px 35px 190px;
+    
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-logo-description{
+    width: 443px;
+}
+
+.footer-logo-description h1{
+    color: var(--secondary-color);
+    font-size: 4.5rem;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.footer-logo-description p{
+    letter-spacing: 0.3px;
+}
+
+.footer-menu-container{
+    display: flex;
+    gap: 150px;
+}
+
+.get-started{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.footer-menu-container ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    gap: 20px;
+}
+
+
+.footer-menu-container a{
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: 23px;
+}
+
+
+hr{
+    border: 2px solid rgba(255, 255, 255, 0.10);
+    margin:80px 0px 35px 0px;
+}
+
+.footer-right-text{
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 0.3px;
+}
+
+
+/* .......................... */
+/* Design For Responsive Mobile view design */
+@media (max-width: 576px) {
+   body{
+    padding: 0px 20px;
+   }
+
+   header{
+    margin: 0px -20px;
+    height: auto;
+   }
+
+   p{
+    max-width: 316px;
+   }
+
+   .btn-main, .btn-secondary{
+    padding: 16px 30px;
+    font-size: 1rem;
+   }
+
+   .section-start, .section-start-middle{
+    margin-top: 66px;
+   }
+
+   .flex-space-between{
+    flex-direction: column;
+   }
+
+   .section-start-middle h1{
+    text-align: center;
+    font-size: 2rem;
+   }
+
+   .section-start h1{
+    font-size: 2rem;
+   }
+
+   nav, .hero-container{
+    padding: 0px 20px;
+   }
+
+    nav{
+    padding-top: 50px;
+   }
+
+   nav ul{
+    display: none;
+   }
+
+   .hero-text-container{
+    width: 100%;
+   }
+
+   .hero-text-container h1{
+    font-size: 2.25rem;
+   }
+
+   .miama-font{
+    font-size: 4rem;
+   }
+
+   .hero-container{
+    flex-direction: column;
+    gap: 30px;
+   }
+
+   .hero-image-container{
+    width: 100%;
+   }
+
+   .leftbadge{
+    bottom:150px;
+    left: 12px;
+   }
+
+   .rightbadge{
+    top:45px;
+    right: 12px;
+   }
+
+
+   .habit-container{
+    flex-direction: column;
+    gap: 40px;
+   }
+
+   .run-section{
+    padding: 33px;
+   }
+
+   .run-text-container{
+    width: auto;
+   }
+
+   .run-img-container{
+    height: 170px;
+    width: 100%;
+   }
+
+   .first-row-grid{
+    grid-template-columns: 55% 45%;
+   }
+
+   .second-row-grid{
+    grid-template-columns: 45% 55%;
+   }
+
+   .mobile-view-none{
+    display: none;
+   }
+
+   .team-container{
+    grid-template-columns: repeat(1, 1fr) ;
+   }
+
+   footer{
+    margin: 0px -20px;
+    padding: 40px 20px 40px 20px;
+   }
+
+   .footer-logo-description h1{
+    font-size: 3.5rem;
+   }
+
+
+   .footer-container, .footer-menu-container{
+    flex-direction: column;
+    gap: 20px;
+   }
+}
