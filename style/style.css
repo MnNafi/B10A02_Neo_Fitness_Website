@@ -6,6 +6,8 @@
 
 
 /* Commont Css Design Start Here */
+
+/* Root Elements Are Here */
 :root{
     --primary-color: #fff;
     --secondary-color: #E6533C;
@@ -41,6 +43,10 @@ img{
     width: 100%;
     object-fit: cover;
 }
+
+
+/* --------------Common Design End Here----------------*/
+
 
 
 /* Custom Class Style is Start Here */
@@ -104,10 +110,13 @@ img{
     right: 0;
 }
 
+/* ------------------Cumtom Class Design Ends Here--------------- */
 
 
 
-/* Design Has Been Start Here */
+
+/* --------------Webpage Design Start Here----------------- */
+
 body{
     padding: 0px 190px;
     background-color: var(--background-color);
@@ -138,7 +147,7 @@ nav, .hero-container {
 
 
 
-/* Nav bar Design Start here */
+/* Navbar Menu Design Start here */
 
 nav{
     padding-top: 58px;
@@ -269,6 +278,13 @@ nav ul li a {
     width: auto;
 }
 
+
+/* -----------Header Section Design End Here------------- */
+
+
+
+/* ----------Main Section Design Start Here--------------- */
+
 /* Habbit section Design Start Here */
 
 .habit-container{
@@ -305,6 +321,7 @@ nav ul li a {
     text-align: center;
 }
 
+/* ----------------------------------- */
 
 /* Run Section Design Start Here */
 .run-section{
@@ -329,6 +346,8 @@ nav ul li a {
 .run-img-container img{
     border-radius: 18px;
 }
+
+/* ---------------------------------- */
 
 
 /* Training and Exercise Section Design Start here */
@@ -391,6 +410,9 @@ nav ul li a {
     color: #fff;
     font-size: var(--text-size);
 } 
+
+
+/* ---------------------------------------------- */
 
 /* BMI Calculator Section Design Start Here */
 
@@ -489,6 +511,10 @@ nav ul li a {
 }
 
 
+
+/* -------------------------------------------- */
+
+
 /* Trainer Team Section Design Start Here */
 .team-container{
     display: grid;
@@ -533,6 +559,9 @@ nav ul li a {
 .trainer-designation{
     text-align: var(--text-size);
 }
+
+
+/* ----------------------------------------- */
 
 
 /* Footer Design Start Here */
@@ -604,6 +633,8 @@ hr{
 
 
 /* .......................... */
+
+
 /* Design For Responsive Mobile view design */
 @media (max-width: 576px) {
    body{
@@ -779,6 +810,8 @@ hr{
 }
 
 
+/* -------------------------------------------- */
+
 /* Tablet Size Device Design Start Here */
 
 @media (min-width: 576px) and (max-width: 992px) {
@@ -863,6 +896,6 @@ hr{
         gap: 100px;
     }
 
-       
+    /* Design Code code Has been Finished Here */
 
 }
